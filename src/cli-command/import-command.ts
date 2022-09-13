@@ -8,7 +8,7 @@ export default class ImportCommand implements CliCommandInterface {
 
     try {
       fileReader.read();
-      console.log(fileReader.toArray());
+      fileReader.logColored();
     } catch (err) {
 
       if (!(err instanceof Error)) {

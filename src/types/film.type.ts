@@ -1,7 +1,7 @@
 import {Genre} from './genre.enum';
 
 export type Film = {
-  name: string,
+  title: string,
   description: string,
   publishDate: Date,
   genre: Genre,
