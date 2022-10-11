@@ -4,7 +4,7 @@ export type Film = {
   title: string,
   description: string,
   publishDate: Date,
-  genre: Genre,
+  genre: Genre[],
   airDate: Date,
   rating: number,
   previewVideo: string,
